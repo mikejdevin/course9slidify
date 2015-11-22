@@ -7,7 +7,7 @@ framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
 hitheme     : tomorrow      # 
 widgets     : []            # {mathjax, quiz, bootstrap}
-mode        : standalone # {standalone, draft}
+mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
 
 --- .class #id 
@@ -21,6 +21,13 @@ Everyone knows data science is super important today and tomorrow! With a game e
 ## You Can Win
 
 Finally you can win against someone with less science. Veteran data plotters can adjust to minimize error, while ordinary people are confused. 
+
+
+```r
+rdat <- data.frame( runif(100), runif(100) )
+plot(rdat, xlab="hype", ylab="fame")
+abline(lm(rdat))
+```
 
 ![plot of chunk unnamed-chunk-1](assets/fig/unnamed-chunk-1-1.png) 
 Sample game level!

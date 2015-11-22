@@ -22,9 +22,10 @@ Everyone knows data science is super important today and tomorrow! With a game e
 
 Finally you can win against someone with less science. Veteran data plotters can adjust to minimize error, while ordinary people are confused. 
 
-```{r echo=FALSE}
+```{r}
 rdat <- data.frame( runif(100), runif(100) )
 plot(rdat, xlab="hype", ylab="fame")
+abline(lm(rdat))
 ```
 Sample game level!
 
