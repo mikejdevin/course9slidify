@@ -1,0 +1,46 @@
+---
+title       : For science!
+subtitle    : a data fit game
+author      : mike
+job         : science
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+
+--- .class #id 
+
+## Important
+
+Everyone knows data science is super important today and tomorrow! With a game even kids and other non science type people can do some science! Compete for points while fitting points! That's the point!
+
+---
+
+## You Can Win
+
+Finally you can win against someone with less science. Veteran data plotters can adjust to minimize error, while ordinary people are confused. 
+
+```{r echo=FALSE}
+rdat <- data.frame( runif(100), runif(100) )
+plot(rdat, xlab="hype", ylab="fame")
+```
+Sample game level!
+
+---
+
+## Wave of the Future
+
+Gamify all the things! With the sucess of this pilot game, more will come!
+
+If playing video games against kids teaches anything, it says don't underestimate them!
+
+Probably, a lot of lesser known statistics concepts like Simpsons Paradox, can be made into easily learnable game memes.
+
+Buy this! ( it's free )
+
+---
+
+# THE END
+
